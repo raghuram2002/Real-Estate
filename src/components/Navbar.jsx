@@ -18,17 +18,17 @@ const Navbar = () => {
                             <a className='nav-link' href="#Header">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className='nav-link' href="#">About</a>
+                            <a className='nav-link' href="#About">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className='nav-link' href="#">Projects</a>
+                            <a className='nav-link' href="#Projects">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className='nav-link' href="#">Testimonials</a>
+                            <a className='nav-link' href="#Testimonials">Testimonials</a>
                         </li>
                     </ul>
                     <div className='d-lg-block d-flex justify-content-center align-items-center mt-2 mt-lg-0'>
-                        <button className='btn btn-light rounded-5'>Sign up</button>
+                        <button className='btn btn-light rounded-5 mb-2'>Sign up</button>
                     </div>
                 </div>
             </div>
