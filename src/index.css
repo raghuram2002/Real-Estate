@@ -7,6 +7,51 @@
 
 @media (max-width: 991px) {
     #navbarText {
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+}
+
+#slogan{
+    font-size: 45px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+#mainHead{
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeOf {
+    0% { opacity: 0; transform: translateX(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+#About{
+    animation: fadeOf 1s ease-in-out;
+
+}
+
+
+#apartment{
+    height: 350px;
+    width: 300px;
+}
+@media (min-width: 568px) {
+    #slogan{
+        font-size: 75px;
+    }
+    #apartment{
+        height: 350px;
+        width: 300px;
+    }
+}
+@media (min-width: 992px) {
+    #slogan{
+        font-size: 85px;
+    }
+    #apartment{
+        height: 450px;
+        width: 400px;
     }
 }

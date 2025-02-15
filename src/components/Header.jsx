@@ -16,9 +16,9 @@ const Header = () => {
             ></div>
 
             <Navbar/>
-            <div className='d-flex flex-column justify-content-center container position-relative text-center text-white ' style={{height:'595px'}}>
-                <h2 className='fw-bolder fs-1 mb-4'>Explore homes that fit your dreams</h2>
-                <div className='d-flex justify-content-center gap-2'>
+            <div className='d-flex flex-column justify-content-center container position-relative text-center text-white ' style={{height:'595px'}} id='mainHead'>
+                <h2 className='h1 fw-bolder mb-5' id='slogan'>Find homes that match your dreams</h2>
+                <div className='d-flex justify-content-center gap-4'>
                     <button className='btn border text-white' style={{width:'110px'}}>Projects</button>
                     <button className='btn btn-primary' style={{width: '110px'}}>Contact Us</button>
                 </div>
